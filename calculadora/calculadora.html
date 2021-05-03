@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <body>
+    <div>
+      <input type="text" id="first" onkeyup="calcularOperacion()">
+      <input type="text" id="second" onkeyup="calcularOperacion()">
+    </div>
+
+    <div>
+      <select id="selecter">
+        <option value="suma">suma</option>
+        <option value="resta">resta</option>
+        <option value="multiplicacion">multiplicacion</option>
+        <option value="division">division</option>
+        <option value="raiz">raiz</option>
+        <option value="potencia">potencia</option>
+      </select>
+    </div>
+
+    <div>
+      <label id="resultado"></label>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="calculadora.js"></script>
+  </body>
+</html>
